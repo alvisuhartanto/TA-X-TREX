@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    package="com.example.snapchef">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_custom_foreground"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_custom"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SnapChefApplication"
-        tools:targetApi="31">
+        android:theme="@style/Theme.snapchef">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.snapchef.MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.SnapChefApplication">
+            android:theme="@style/Theme.snapchef.sutom"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

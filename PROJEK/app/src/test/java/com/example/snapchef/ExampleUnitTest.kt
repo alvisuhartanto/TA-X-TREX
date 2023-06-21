@@ -1,4 +1,4 @@
-package com.uti.snapchefapplication
+package com.example.snapchef
 
 import org.junit.Test
 
