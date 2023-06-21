@@ -21,6 +21,10 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.example.snapchef.DetailActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name="com.example.snapchef.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.snapchef.sutom"
