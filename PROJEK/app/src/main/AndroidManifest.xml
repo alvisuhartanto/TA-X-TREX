@@ -11,15 +11,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.snapchef">
         <activity
-            android:name="com.example.snapchef.MainActivity"
+            android:name="com.example.snapchef.SplashScreenActivity"
             android:exported="true"
-            android:theme="@style/Theme.snapchef.sutom"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.snapchef.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.snapchef.sutom"
+            android:screenOrientation="portrait">
+
         </activity>
     </application>
 
