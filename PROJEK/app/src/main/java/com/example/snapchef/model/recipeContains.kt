@@ -1,4 +1,4 @@
-package model
+package com.example.snapchef.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
